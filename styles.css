@@ -1,4 +1,4 @@
-/* General*/
+/* General */
 :root {
     --white: #FFFFFF;
     --black: #000000;
@@ -17,7 +17,7 @@ body {
     display: none;
 }
 
-/*Navbar (general)*/
+/* Navbar (general) */
 nav {
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,7 @@ nav {
 }
 .menu {
     display: none;
+    cursor: pointer;
 }
 .logo {
     width: 100px;
@@ -80,7 +81,7 @@ nav {
     align-items: center;
 }
 
-/*Menu en Desktop*/
+/* Menu en Desktop */
 .desktop-menu {
     position: absolute;
     top: 60px;
@@ -118,7 +119,7 @@ nav {
     display: inline-block;
 }
 
-/*Menu en mobile*/
+/* Menu en mobile */
 .mobile-menu {
     background-color: var(--white);
     position: absolute;
@@ -153,7 +154,7 @@ nav {
 }
 
 
-/*Aside (Product detail y Shopping Cart*/
+/* Aside (Product detail y Shopping Cart */
 aside {
     background-color: var(--white);
     width: 360px;
@@ -162,7 +163,7 @@ aside {
     right: 0;
 }
 
-/*Shopping Cart*/
+/* Shopping Cart */
 #shoppingCartContainer {
     padding: 0 24px;
 }
@@ -234,7 +235,7 @@ aside {
     height: 50px;
 }
 
-/*Product Detail*/
+/* Product Detail */
 .product-detail-close {
     background: var(--white);
     width: 14px;
@@ -292,7 +293,7 @@ aside {
     justify-content: center;
 }
 
-/*Products list*/
+/* Products list */
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 240px);
